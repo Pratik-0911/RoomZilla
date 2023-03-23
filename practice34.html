@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .container {
+      background-color: blue;
+    }
+    .box {
+      width: 200px;
+      height: 200px;
+      border: 2px solid red;
+      background-color: aqua;
+      position: relative;
+      animation-name: pratik;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+      animation-delay: 3s;
+      /* animation-direction: reverse; */
+    }
+    .box2 {
+      width: 200px;
+      height: 200px;
+      border: 2px solid rgb(255, 0, 230);
+      background-color: rgb(51, 204, 99);
+      position: relative;
+      animation-name: pratik2;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-fill-mode: forwards;
+      animation-delay: 3s;
+      /* animation-direction: reverse; */
+    }
+    @keyframes pratik {
+      from {
+        width: 150px;
+      }
+      to {
+        width: 700px;
+      }
+    }
+    @keyframes pratik2 {
+        0%{
+        top:0px;
+        left: 0px;
+        }
+        25%{
+         top:0px;
+        left: 250px;
+        }
+        75%{
+         top:250px;
+        left: 250px;
+        }
+        100%{
+        top:250px;
+        left:0px;
+        }
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="box">this is a box Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas repellendus, voluptatum odit fugit facilis ipsa, deserunt ad repellat unde nemo aliquid facere porro error laborum ex harum, ut voluptate ipsum?</div>
+    </div>
+      <div class="box2">this is a box Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas repellendus, voluptatum odit fugit facilis ipsa, deserunt ad repellat unde nemo aliquid facere porro error laborum ex harum, ut voluptate ipsum?</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>margin auto, float, clear both, text align</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+         #fruit{ 
+        padding-left: 10px;
+          float: left;  
+          width: 48%;
+          
+        }
+        #computer{
+            padding-left: 10px;
+            float: right;
+            width: 48%;
+           
+        
+        }
+        #stationary{
+            /* float:left; */
+            padding-left: 30px;
+            width: 100%;
+            clear: both;
+        } 
+        .common{
+            background-color: rgb(110, 192, 192);
+            border: solid;
+            margin-bottom: 10px;
+        }
+        .container{
+        
+            width: 700px;
+            background-color: rgb(195, 112, 112);
+            border: 5px solid rgba(0, 0, 0, 0.948);
+            padding: 10px 10px 10px 10px;   
+            margin: auto;
+            
+        }
+        h1{
+            margin: auto;
+            padding-bottom: 10px;
+            width: 90px;
+        }
+        h2{
+            margin: auto;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>  
+    <div class="container">
+        <h1>welcom</h1>
+        <div id="fruit" class="common">
+            <h2>heading 1</h2>
+            <p> now we are accessing some random words Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum fugiat voluptatibus asperiores sin, illo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ducimus rem quidem quod a eius quae ab tempora recusandae optio. Ullam ab autem animi natus consectetur reprehenderit odit cum at! </p>
+        </div>
+        <div id="computer" class="common">
+            <h2>heading 2</h2>
+            <p> then we are accessing some random words Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iste mollitia inventore tempore repellat omnis quibusdam. Odio sunt nostrum veniam dicta et, optio rem debitis. Corporis veritatis ullam at consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit.  similique ullam. Quidem optio architecto labore. Est, illo? </p>
+        </div>
+        <div id="stationary" class="common">
+            <h2>heading 3</h2>
+            <p> yes we are accessing some random words Lorem ipsum dolor sit amet consectetur adipisicing elit.Quidem optio architecto labore. Est, illo? </p>
+        </div>
+    </div>
+</body>
+</html>

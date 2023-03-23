@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css properties</title>
+    <style>
+     .bmro{
+        border: 5px solid black;
+        margin: auto;
+        width: 20%;
+        background-color: aqua;
+        
+     }
+     img{
+        margin: auto;
+        display: block;
+        width: 50%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+     }
+     h2{
+        margin: auto;
+        display: block;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+     .all{
+        border: 5px solid rgb(225, 100, 65);
+        background-color: rgb(112, 203, 173);
+        width: 500px;
+        margin-top: 30px;
+        box-sizing: border-box;
+        display: inline-block;
+        height: 200px;
+     }
+     h3{
+        padding-left: 200px;
+     }
+     p{
+        padding: 10px 10px 10px 20px;
+     }
+     .oppo{
+        border: 5px solid rgb(204, 97, 97);
+        background-color: aqua;
+        width: auto;
+        margin-top: 10px;
+     }
+     #okok{
+        padding-left: 700px;
+     }
+     
+    </style>
+</head>
+<body>
+   <div id="new">
+    <div class="bmro">
+    <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEau_59J0ApaQ/profile-displayphoto-shrink_800_800/0/1654365389069?e=2147483647&v=beta&t=M3MrJOnfUoEdTvH03aDIsNoH57w3Gv3LYQSxQTgNOdw" alt="error">
+    <h2>Hellow tushar brother </h2>
+    </div>
+    <div class="all">
+        <h3>TOPPER</h3>
+        <P>As far as study is concern he is very hardworking guy Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem itaque hic autem? Repellat commodi, assumenda nulla voluptatum qui debitis eius a mollitia aperiam, accusamus, ea excepturi necessitatibus laborum temporibus omnis.</P>
+    </div>
+    <div class="all" >
+        <h3>Builder</h3>
+        <P>He is very passionate about his builder carrier Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem itaque hic autem? Repellat commodi, assumenda nulla voluptatum qui debitis eius a mollitia aperiam, accusamus, ea excepturi necessitatibus laborum temporibus omnis.</P>
+    </div>
+    <div class="all">
+        <h3>Model</h3>
+        <P> once upon a time he was a only successful model in our state Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem itaque hic autem? Repellat commodi, assumenda nulla voluptatum qui debitis eius a mollitia aperiam, accusamus, ea excepturi necessitatibus laborum temporibus omnis.</P>
+    </div>
+    <div class="oppo">
+        <h3 id="okok">super</h3>
+        <P> tushar is a real super hero Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem itaque hic autem? Repellat commodi, assumenda nulla voluptatum qui debitis eius a mollitia aperiam, accusamus, ea excepturi necessitatibus laborum temporibus omnis.</P>
+    </div>
+   </div>
+    <script>
+      var element;
+      // element = document.getElementsByClassName("all");
+      // element = document.getElementById("new").innerText;
+      // console.log(element);
+      // element = document.getElementById("new").innerHTML;
+      // console.log(element);
+      element=document.getElementById("new").attributes;
+      console.log(element);
+      element=document.getElementById("new").attributes[0].value;
+      console.log(element);
+    </script>    
+        
+</body>
+</html>

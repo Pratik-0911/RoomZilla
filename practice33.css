@@ -1,0 +1,49 @@
+ .navbar{
+            display: flex;
+            
+        }
+        body{
+            color: white;
+        }
+        header{
+            background-color: black;
+            color: white;
+            background: url(https://png.pngtree.com/thumb_back/fh260/background/20200607/pngtree-abstract-trendy-neon-colorful-frame-background-image_337959.jpg);
+            background-repeat: no-repeat;
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            position: absolute;
+            height: 100%;
+            top: 0;
+            left: 0;
+            opacity: 1;
+            z-index: -1;
+
+        }
+        h1{
+            font-style: oblique;
+            font-size: 4rem;
+            text-shadow: 3px 4px red ;
+        }
+        li{
+            list-style: none;
+            padding-left: 40px;
+            padding-top: 20px;
+            font-size: 1.5rem;
+            /* border: 2px solid black; */
+            margin-top: 30px;
+            box-shadow: 10px 10px 10px;
+            text-shadow: 1px 2px red ;
+            
+        }
+        section{
+            /* border: 3px solid red; */
+            text-align: center;
+            height: 300px;
+            padding-top: 140px;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+    
